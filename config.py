@@ -1,6 +1,6 @@
 import os
 
-config = {'user': os.environ['user'], 'password': os.environ['password'], 'host': 'localhost', 'database': 'jaberi_exchange'}
+config = {'user': os.environ['user'], 'password': os.environ['password'], 'host': 'localhost', 'database': 'exchange_currency'}
 
 token = os.environ['token']
 
