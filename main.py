@@ -7,7 +7,7 @@ import logging
  
 from telebot.types import ReplyKeyboardMarkup,InlineKeyboardButton,InlineKeyboardMarkup,KeyboardButton,ReplyKeyboardRemove
 
-from config import mytoken,admin,bank_card_photo,bank_card
+from config import mytoken,admin,bank_card_photo,bank_card_number
 from persian_text import help_text
 
 from DQL import get_username_password,get_wallet,get_cid,get_account_movements,get_all_user_cid,get_all_user,get_wallet_crrency
@@ -901,7 +901,6 @@ def send_exchangr_card_number(message): # مبلغ برداشت تومان را 
         amount = int(message.text)
         if amount >= 50000:
             photo_id         = bank_card_photo # عکس و شماره کارت بانک از فایل config 
-            bank_card_number = bank_card
             bot.send_photo(cid,photo_id,caption=f"""🔔 لطفاً مبلغ {amount} تومان را به شماره کارت زیر واریز نمایید:\n
 💳 شماره کارت: `{bank_card_number}`\n
 🔹 به نام: امیر مهدی جابری\n
