@@ -7,7 +7,7 @@ import logging
  
 from telebot.types import ReplyKeyboardMarkup,InlineKeyboardButton,InlineKeyboardMarkup,KeyboardButton,ReplyKeyboardRemove
 
-from config import mytoken,admin,bank_card_photo,bank_card_number
+from config import token,admin,bank_card_photo,bank_card_number
 from persian_text import help_text
 
 from DQL import get_username_password,get_wallet,get_cid,get_account_movements,get_all_user_cid,get_all_user,get_wallet_crrency
@@ -18,7 +18,7 @@ from DML import buying_currency1,withdrawal_from_wallet,buying_currency3,update_
 from DML import sell_currency1,sell_currency2,sell_currency3,insert_transactions,insert_favorite,delete_favorite,update_wallet_tmn,insert_account_movements
 from DML import insert_user_data,insert_wallet_data,update_user_data,buying_currency2,add_spams,update_warning,update_warning_to_zero
 
-API_TOKEN = mytoken 
+API_TOKEN = token 
 
 bot = telebot.TeleBot(API_TOKEN)
 
