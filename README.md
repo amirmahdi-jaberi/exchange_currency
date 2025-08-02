@@ -143,6 +143,6 @@ This project is licensed under the **MIT License**. See the `LICENSE` file for f
 
 ---
 
-## 💬 Need Help?
+## Created by
+amir mahdi jaberi
 
-If you have questions or ideas to improve the bot, feel free to [open an issue](https://github.com/amirmahdi-jaberi/exchange_currency/issues) or submit a PR.
