@@ -44,7 +44,7 @@ exchange_currency/
 ## 🛠️ Prerequisites
 
 - Python 3.9 or later  
-- PostgreSQL or SQLite (per your configuration)  
+- MySql 
 - A Telegram Bot token via [@BotFather](https://t.me/BotFather)  
 - (Optional) Bank account/card details loaded via environment variables or `config.py`
 
