@@ -96,22 +96,6 @@ exchange_currency/
    ```
 
 ---
-
-## 🧾 Usage
-
-Once the bot is running and you're added as a user (e.g., via admin approval):
-
-- `/start` — Welcome and help menu  
-- `/help` — Detailed bot usage  
-- `/price BTC` — Get current price of BTC  
-- `/buy ETH 0.1` — Simulate buy order  
-- `/favorites` — List and manage favorites  
-- `/admin stats` — (Admin only) Show bot usage stats
-
-*(Adjust according to the actual command handlers in your `main.py`.)*
-
----
-
 ## ✅ Contributing
 
 Contributions are welcome! Please:
@@ -132,16 +116,6 @@ This project is licensed under the **MIT License**. See the `LICENSE` file for f
 
 ---
 
-## 🧠 Suggestions & Best Practices
-
-- Use **`python-dotenv`** to load config values from `.env`  
-- Keep `config.py` clean by removing sensitive/hardcoded data  
-- Add unit tests using `pytest` or `unittest`  
-- Automate testing and build with GitHub Actions  
-- Use `black`, `flake8`, or `ruff` for code linting and formatting  
-- Add a `.dockerignore` and improve Dockerfile for production use
-
----
 
 ## Created by
 amir mahdi jaberi
